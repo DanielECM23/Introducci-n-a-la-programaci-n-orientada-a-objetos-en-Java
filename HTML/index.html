@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+
+<body>
+    <script src="script.js"></script>
+    <!-- Encabezado con el nombre -->
+    <header>
+        <div class="header-left">
+        <img src="home.png" alt="Inicio" class="home-icon">
+        <div class="profile-name">Daniel Esteban Cantor</div>
+        </div>
+        <!-- Barra de navegación -->
+        <nav>
+            <ul class="nav-bar">
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#projects">Detalles del proyecto</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#recommendations">Recomendaciones</a></li>
+            </ul>
+        </nav>
+
+        <!-- Sección Acerca de mí -->
+        <section id="about" class="about-section">
+            <img src="perfil.png" alt="Foto de perfil" class="profile-pic">
+            <div class="about-text">
+                <h2>Daniel Esteban Cantor</h2>
+                <p>
+                    Soy un desarrollador web en formación con interés en la creación de interfaces atractivas y funcionales. 
+                    Me apasiona el aprendizaje continuo y la resolución de problemas mediante HTML, CSS y JavaScript.
+                </p>
+            </div>
+        </section>
+        <!-- Sección Habilidades -->
+        <section id="skills" class="skills-section">
+            <h2>Habilidades</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="hyml-logo.png" alt="HTML Logo">
+                    <p>HTML</p>
+                </div>
+                <div class="skill">
+                    <img src="css-logo.png" alt="CSS Logo">
+                    <p>CSS</p>
+                </div>
+                <div class="skill">
+                    <img src="js-logo.png" alt="JavaScript Logo">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill">
+                    <img src="git-logo.png" alt="Git Logo">
+                    <p>Git</p>
+                </div>
+                <div class="skill">
+                    <img src="responsive-logo.png" alt="Responsive Design Logo">
+                    <p>Diseño Responsive</p>
+                </div>
+            </div>
+        </section>
+        <!-- Sección Proyectos -->
+        <section id="projects" class="projects-section">
+            <h2>Proyectos</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <h3>Sitio Web Portafolio</h3>
+                    <p>Un sitio web personal desarrollado con HTML, CSS y JavaScript para mostrar mis habilidades, proyectos y experiencia.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Aplicación de Tareas</h3>
+                    <p>Aplicación interactiva para gestionar tareas pendientes, con funciones de agregar, editar y eliminar.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Diseño Responsive</h3>
+                    <p>Implementación de diseño adaptable para diferentes dispositivos y pantallas utilizando media queries.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Sección Recomendaciones -->
+        <section id="recommendations" class="recommendations-section">
+            <h2>Recomendaciones</h2>
+            <div class="recommendations-container">
+                <div class="recommendation-card">
+                    <p>"Daniel es un desarrollador con gran atención al detalle y una excelente capacidad para aprender nuevas tecnologías rápidamente."</p>
+                    <span>- Laura M.</span>
+                </div>
+                <div class="recommendation-card">
+                    <p>"Su compromiso y creatividad lo convierten en un miembro valioso en cualquier equipo de desarrollo."</p>
+                    <span>- Carlos G.</span>
+                </div>
+                <div class="recommendation-card">
+                    <p>"Trabajar con Daniel siempre es una experiencia positiva; aporta soluciones innovadoras y eficientes."</p>
+                    <span>- Andrea P.</span>
+                </div>
+            </div>
+        </section>
+        <!-- Formulario para nueva recomendación -->
+        <section class="new-recommendation-section">
+            <h2>Agregar una Recomendación</h2>
+            <form id="recommendation-form">
+                <textarea id="recommendation-text" placeholder="Escribe tu recomendación aquí..." required></textarea>
+                <br>
+                <button type="submit">Enviar Recomendación</button>
+            </form>
+        </section>
+        <!-- Pop-up de confirmación -->
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <p>¡Gracias por enviar una recomendación!</p>
+                <button id="close-popup">Cerrar</button>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
