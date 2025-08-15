@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"uniandes.cupi2.exposicionCanina.mundo","l":"ExposicionPerros"},{"p":"uniandes.cupi2.exposicionCanina.mundo","l":"Perro"}];updateSearchResults();
